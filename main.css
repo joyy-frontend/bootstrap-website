@@ -54,3 +54,11 @@
 .bottom-container {
   background-color: #252B42;
 }
+
+.gap-custom {
+  gap: 18rem !important;
+}
+
+.industry-container {
+  background-color: #8EC2F2;
+}
