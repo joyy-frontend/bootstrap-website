@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+  .navbar-nav.login {
+    display: none;
+  }
+
+  .btn-primary {
+    margin-left: auto;
+  }
+
+  .navbar {
+    background-color: #252B42;
+  }
+
+  .navbar-toggler {
+    /* background-color: #fff; */
+    border: none;
+    /* background-color: var(--navbar-bg-color); */
+  }
+
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+
+  .m-icon {
+    object-fit: contain;
+  }
+
+  .nav-item .nav-link {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+}
