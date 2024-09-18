@@ -1,0 +1,75 @@
+/*Haruka*/
+
+:root{
+    --fontfamily-montserrat: Montserrat, san-serif;
+    --dark: #252B42;
+}
+
+.haruka-part-wrap {
+    font-family: var(--fontfamily-montserrat);
+}
+
+.b-navy-back{
+    background-color: var(--dark);
+}
+
+.btn-custom{
+    background-color: #23A6F0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.custom-fz-24{
+    font-size: 24px;
+}
+.custom-fz-14{
+    font-size: 14px;
+}
+.custom-fz-40{
+    font-size: 40px;
+}
+.custom-fz-16{
+    font-size: 16px;
+}
+
+.color-blue{
+    color: #23A6F0;
+}
+.custom-color-gray{
+    color: #737373;
+}
+.custom-color-navy{
+    color: #252B42;
+}
+
+.contact-bg{
+    background-image: url(./asset/contact-cover.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.custom-w{
+    padding: 0 1rem;
+}
+
+/*footer*/
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer li a{
+    font-size: 14px;
+}
+@media (min-width: 992px) { /* desktop */
+    .custom-font-weight{
+        font-weight: normal;
+    }
+
+    .lg-gray{
+        color: #737373;
+    }
+}
