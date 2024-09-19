@@ -56,9 +56,56 @@
 }
 
 .gap-custom {
-  gap: 18rem !important;
+  gap: 13rem !important;
 }
 
 .industry-container {
   background-color: #8EC2F2;
+  z-index: 1;
+}
+
+.sub-text {
+  width: 40%;
+}
+
+.card-wrapper {
+  gap: 10rem;
+  width: 70%;
+  position: relative;
+  z-index: 1;
+}
+
+.custom-detail-text {
+  color: #737373;
+  text-align: justify;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.profile-img1 {
+  position: absolute;
+  top: 8%;
+  left: -5%;
+  z-index: 2;
+}
+
+.card-section2 {
+  position: relative;
+  z-index: 1;
+}
+
+.profile-img2 {
+  position: absolute;
+  top: 8%;
+  left: -12%;
+  z-index: 2;
+}
+
+.card-container {
+  position: relative;
+  overflow: hidden;
 }

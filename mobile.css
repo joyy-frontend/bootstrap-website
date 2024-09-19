@@ -16,9 +16,7 @@
   }
 
   .navbar-toggler {
-    /* background-color: #fff; */
     border: none;
-    /* background-color: var(--navbar-bg-color); */
   }
 
   .navbar-toggler-icon {
@@ -60,7 +58,17 @@
 
   .mb-container {
     background-color: #252B42;
+    padding: 5%;
+  }
 
+  .sub-text {
+    width: 100%;
+  }
+
+  .card-wrapper {
+    flex-direction: column;
+    width: 100%;
+    gap: 5rem;
   }
 
 
