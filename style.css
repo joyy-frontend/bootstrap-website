@@ -5,7 +5,21 @@
     --dark: #252B42;
 }
 
-.haruka-part-wrap {
+.a-1{
+    border: solid 1px red;
+}
+.a-2{
+    border: solid 1px blue;
+}
+.a-3{
+    border: solid 1px green;
+}
+.a-4{
+    border: solid 1px yellow;
+}
+
+.haruka-part-wrap,
+.custom-font{
     font-family: var(--fontfamily-montserrat);
 }
 
@@ -15,7 +29,7 @@
 
 .btn-custom{
     background-color: #23A6F0;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 14px;
 }
 
@@ -31,6 +45,9 @@
 .custom-fz-16{
     font-size: 16px;
 }
+.custom-fx-20{
+    font-size: 20px;
+}
 
 .color-blue{
     color: #23A6F0;
@@ -43,16 +60,43 @@
 }
 
 .contact-bg{
-    background-image: url(./asset/contact-cover.jpg);
+    background: linear-gradient(to right, rgb(255, 255, 255, 0.5) 40%, transparent), url(./asset/contact-cover.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
 }
 
 .custom-w{
     padding: 0 1rem;
 }
+/*Pricing*/
+.silver{
+    position: relative;
+}
 
+.silver .new{
+    position: absolute;
+    background-color: #E77C40;
+    border-radius: 50%;
+    top: -5%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    padding-top: 18px;
+}
+
+/*Contact*/
+input::placeholder,
+input[type="text"]::placeholder,
+textarea::placeholder,
+.form-control::placeholder {
+    color: #BDBDBD;
+}
 /*footer*/
+footer{
+    font-family: var(--fontfamily-montserrat);
+}
 footer ul{
     list-style: none;
 }
@@ -64,6 +108,13 @@ footer a{
 footer li a{
     font-size: 14px;
 }
+
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
 @media (min-width: 992px) { /* desktop */
     .custom-font-weight{
         font-weight: normal;
@@ -72,4 +123,9 @@ footer li a{
     .lg-gray{
         color: #737373;
     }
+
+    .custom-bg-white{
+        background-color: white;
+    }
+
 }
