@@ -1,3 +1,7 @@
+:root {
+  --bs-btn-hover-border-color: #4FA6F0;
+}
+
 .hero-image {
   position: relative;
   height: 100vh;
@@ -34,13 +38,25 @@
 
 .quote-now,
 .become-btn {
-  /* background-color: var(--bs-primary); */
   background-color: #4FA6F0;
+}
+
+.quote-now:hover,
+.become-btn:hover {
+  background-color: #4FA6F0;
+}
+
+.quote-now:active {
+  background-color: inherit;
 }
 
 .learn-more {
   border: 1px solid #fff;
   width: 60%;
+}
+
+.learn-more:hover {
+  border: 1px solid #fff;
 }
 
 .ensure-container {

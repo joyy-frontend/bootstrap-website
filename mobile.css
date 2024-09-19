@@ -1,8 +1,4 @@
 @media screen and (max-width: 768px) {
-  :root {
-    --bs-primary: #4FA6F0;
-  }
-
   .navbar-nav.login {
     display: none;
   }
@@ -13,6 +9,10 @@
 
   .navbar-toggler {
     border: none;
+  }
+
+  .navbar-brand {
+    margin-left: 4%;
   }
 
   .navbar-toggler-icon {
@@ -44,7 +44,8 @@
 
   .mb-container {
     background-color: #252B42;
-    padding: 5%;
+    padding: 10%;
+
   }
 
   .sub-text {
@@ -72,36 +73,22 @@
 
   .sub-container {
     display: inline-block;
-    margin-top: 4%;
     line-height: 1.6;
     width: 80%;
-    padding: 5%;
+    padding: 3%;
     font-weight: 200;
   }
-
-  /* .brandname-container {
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
 
   .header-text {
     line-height: 1.6;
   }
 
   .btn-container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
   }
 
   .top {
     width: 100%;
-  }
-
-  .nav-text {
-    padding: 0.4em;
   }
 
   .btn-g {
@@ -120,6 +107,7 @@
     color: #4FA6F0;
     width: 68%;
     border: 1px solid #4FA6F0;
+    margin-bottom: 4em;
   }
 
   .material-icons {
