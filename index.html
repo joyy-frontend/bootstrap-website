@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./mobile.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <title>Bootstrap Website</title>
 </head>
 
@@ -21,17 +22,15 @@
         <div class="d-block d-sm-none d-flex justify-content-end">
           <img src="./assets/icn-search.png" alt="search" class="m-icon p-1" />
           <img src="./assets/icn-shopping-cart.png" alt="shoppingCart" class="m-icon p-1" />
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="m-2 pt-2">
+            <i class="material-icons">menu</i>
+          </div>
         </div>
       </div>
 
       <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
-        <div class="p-3">
-          <ul
-            class="navbar-nav ms-auto d-flex flex-lg-row flex-column align-items-lg-center text-center text-lg-start justify-content-lg-start text-center">
+        <div class="p-3 d-flex justify-content-center top">
+          <ul class="navbar-nav header-container d-flex ps-5">
             <li class="nav-item me-4 nav-text">
               <a class="nav-link active" href="#">Home</a>
             </li>
@@ -50,13 +49,10 @@
           <ul class="navbar-nav me-3">
             <li class="nav-item">
               <a href="#" class="nav-link d-lg-block d-none">Login</a>
-              <a href="#" class="nav-link d-lg-none">
-                <i class="bi bi-person"></i>
-              </a>
             </li>
           </ul>
           <div class="d-none d-lg-block">
-            <button class="btn btn-primary">Become a Member&nbsp;&rarr;</button>
+            <button class="btn btn-primary become-btn border-0 p-3">Become a Member&nbsp;&rarr;</button>
           </div>
         </div>
       </div>
@@ -64,15 +60,24 @@
   </nav>
 
   <div
-    class="hero-image d-flex flex-column flex-lg-row justify-content-lg-start justify-content-center align-items-center text-white pb-sm-4">
-    <div class="ps-5 ms-5 my-5 text-white mt-5 p-sm-5 ensure-container translate-down">
-      <h1 class="fw-bold mt-5">We Ensure A Best Insurance Service.</h1>
-      <span class="sub-container mt-5">We know how large objects will act, but things on a small
-        scale.</span>
-      <div class="mt-lg-5">
-        <button class="quote-now pt-2 pb-2 px-5 py-5 mt-lg-0 mt-5 btn btn-primary rounded-5">Get
+    class="hero-image d-flex flex-column flex-lg-row justify-content-lg-start justify-content-center align-items-center text-white">
+    <div class="ensure-container mt-5 p-sm-5 ps-5 ms-5 my-5 translate-down text-white ">
+      <div class="text-container d-flex flex-column text-center text-lg-start">
+        <h1 class="fw-bold w-lg-100 title">We Ensure A Best Insurance Service.</h1>
+        <span class="sub-container">We know how large objects will act, but things on a small
+          scale.</span>
+      </div>
+      <!-- <div class="btn-g">
+        <button class="quote-now btn btn-primary rounded-5">Get
           Quote Now</button>
-        <button class="learn-more pt-2 pb-2 py-5 px-5 mx-lg-3 btn bg-transparent border-white rounded-5">Learn
+        <button class="learn-more btn bg-transparent border-white rounded-5">Learn
+          More</button>
+      </div> -->
+      <div
+        class="d-flex flex-column flex-lg-row justify-content-center align-items-center justify-content-lg-start align-items-lg-center mt-lg-5 mb-sm-5">
+        <button class="quote-now p-lg-3 mt-lg-0 mt-5 btn btn-primary rounded-5 w-75">Get
+          Quote Now</button>
+        <button class="learn-more p-lg-3 mx-lg-3 btn bg-transparent border-lg-white rounded-5 w-75">Learn
           More</button>
       </div>
     </div>
@@ -137,7 +142,8 @@
   <!-- Industry -->
   <div class="d-flex flex-column align-items-center industry-container p-5">
     <div class="d-flex flex-column justify-content-center align-items-center w-100">
-      <h1 class="fw-bold text-white text-center">Industry</h1>
+      <h1 class="fw-bold text-white d-none d-sm-block ">Industry</h1>
+      <h1 class="fw-bold text-white d-block d-lg-none text-center header-text">What <br />Clients Say</h1>
       <p class="text-center text-white p-3 sub-text">Problems trying to resolve the conflict between
         the two
         major realms

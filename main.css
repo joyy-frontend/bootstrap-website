@@ -1,5 +1,3 @@
-:root {}
-
 .hero-image {
   position: relative;
   height: 100vh;
@@ -34,8 +32,15 @@
   font-weight: 700;
 }
 
-.quote-now {
-  background-color: var(--bs-primary);
+.quote-now,
+.become-btn {
+  /* background-color: var(--bs-primary); */
+  background-color: #4FA6F0;
+}
+
+.learn-more {
+  border: 1px solid #fff;
+  width: 60%;
 }
 
 .ensure-container {
@@ -49,6 +54,7 @@
 
 .sub-container {
   font-weight: 100;
+  font-size: 1.3rem;
 }
 
 .bottom-container {
