@@ -1,0 +1,116 @@
+@media screen and (max-width: 768px) {
+  .navbar-nav.login {
+    display: none;
+  }
+
+  .navbar {
+    background-color: #252B42;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-brand {
+    margin-left: 4%;
+  }
+
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+
+  .m-icon {
+    object-fit: contain;
+  }
+
+  .nav-item .nav-link {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .translate-down {
+    transform: translateY(10%);
+  }
+
+  .hero-image {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-image button {
+    margin-top: 10px;
+  }
+
+  .mb-container {
+    background-color: #252B42;
+    padding: 10%;
+
+  }
+
+  .sub-text {
+    width: 100%;
+  }
+
+  .card-wrapper {
+    flex-direction: column;
+    width: 100%;
+    gap: 5rem;
+  }
+
+  .text-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    width: 50%;
+    line-height: 1.4;
+    margin-top: 8em;
+  }
+
+  .sub-container {
+    display: inline-block;
+    line-height: 1.6;
+    width: 80%;
+    padding: 3%;
+    font-weight: 200;
+  }
+
+  .header-text {
+    line-height: 1.6;
+  }
+
+  .btn-container {
+    width: 100%;
+  }
+
+  .top {
+    width: 100%;
+  }
+
+  .btn-g {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .quote-now {
+    background-color: #4FA6F0;
+  }
+
+  .learn-more {
+    color: #4FA6F0;
+    width: 68%;
+    border: 1px solid #4FA6F0;
+    margin-bottom: 4em;
+  }
+
+  .material-icons {
+    color: #fff;
+  }
+}

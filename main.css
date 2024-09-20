@@ -1,0 +1,133 @@
+:root {
+  --bs-btn-hover-border-color: #4FA6F0;
+}
+
+.hero-image {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(89.85deg, rgba(0, 0, 0, 1) 0.13%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 99.56%),
+    url('./assets/header-content.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-brand,
+.nav-link,
+.nav-link.active {
+  color: #fff !important;
+}
+
+.nav-item {
+  color: #fff;
+}
+
+.quote-now,
+.learn-more {
+  color: #fff;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+}
+
+.quote-now,
+.become-btn {
+  background-color: #4FA6F0;
+}
+
+.quote-now:hover,
+.become-btn:hover {
+  background-color: #4FA6F0;
+}
+
+.quote-now:active {
+  background-color: inherit;
+}
+
+.learn-more {
+  border: 1px solid #fff;
+  width: 60%;
+}
+
+.learn-more:hover {
+  border: 1px solid #fff;
+}
+
+.ensure-container {
+  font-weight: 800;
+}
+
+.sub-text {
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.sub-container {
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+.bottom-container {
+  background-color: #252B42;
+}
+
+.gap-custom {
+  gap: 13rem !important;
+}
+
+.industry-container {
+  background-color: #8EC2F2;
+  z-index: 1;
+}
+
+.sub-text {
+  width: 40%;
+}
+
+.card-wrapper {
+  gap: 10rem;
+  width: 70%;
+  position: relative;
+  z-index: 1;
+}
+
+.custom-detail-text {
+  color: #737373;
+  text-align: justify;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.profile-img1 {
+  position: absolute;
+  top: 8%;
+  left: -5%;
+  z-index: 2;
+}
+
+.card-section2 {
+  position: relative;
+  z-index: 1;
+}
+
+.profile-img2 {
+  position: absolute;
+  top: 8%;
+  left: -12%;
+  z-index: 2;
+}
+
+.card-container {
+  position: relative;
+  overflow: hidden;
+}
