@@ -1,81 +1,91 @@
 /*Haruka*/
 
-:root{
+:root {
     --fontfamily-montserrat: Montserrat, san-serif;
     --dark: #252B42;
 }
 
-.a-1{
+.a-1 {
     border: solid 1px red;
 }
-.a-2{
+
+.a-2 {
     border: solid 1px blue;
 }
-.a-3{
+
+.a-3 {
     border: solid 1px green;
 }
-.a-4{
+
+.a-4 {
     border: solid 1px yellow;
 }
 
 .haruka-part-wrap,
-.custom-font{
+.custom-font {
     font-family: var(--fontfamily-montserrat);
 }
 
-.b-navy-back{
+.b-navy-back {
     background-color: var(--dark);
 }
 
-.btn-custom{
+.btn-custom {
     background-color: #23A6F0;
     font-weight: 600;
     font-size: 14px;
 }
 
-.custom-fz-24{
+.custom-fz-24 {
     font-size: 24px;
 }
-.custom-fz-14{
+
+.custom-fz-14 {
     font-size: 14px;
 }
-.custom-fz-40{
+
+.custom-fz-40 {
     font-size: 40px;
 }
-.custom-fz-16{
+
+.custom-fz-16 {
     font-size: 16px;
 }
-.custom-fx-20{
+
+.custom-fx-20 {
     font-size: 20px;
 }
 
-.color-blue{
+.color-blue {
     color: #23A6F0;
 }
-.custom-color-gray{
+
+.custom-color-gray {
     color: #737373;
 }
-.custom-color-navy{
+
+.custom-color-navy {
     color: #252B42;
 }
 
-.contact-bg{
-    background: linear-gradient(to right, rgb(255, 255, 255, 0.5) 40%, transparent), url(./asset/contact-cover.jpg);
-    background-size:cover;
+.contact-bg {
+    background: linear-gradient(to right, rgb(255, 255, 255, 0.5) 40%, transparent), url(./assets/contact-cover.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     height: 100%;
 }
 
-.custom-w{
+.custom-w {
     padding: 0 1rem;
 }
+
 /*Pricing*/
-.silver{
+.silver {
     position: relative;
 }
 
-.silver .new{
+.silver .new {
     position: absolute;
     background-color: #E77C40;
     border-radius: 50%;
@@ -93,38 +103,44 @@ textarea::placeholder,
 .form-control::placeholder {
     color: #BDBDBD;
 }
+
 /*footer*/
-footer{
+footer {
     font-family: var(--fontfamily-montserrat);
 }
-footer ul{
+
+footer ul {
     list-style: none;
 }
 
-footer a{
+footer a {
     text-decoration: none;
 }
 
-footer li a{
+footer li a {
     font-size: 14px;
 }
 
 .fw-500 {
     font-weight: 500;
 }
-.fw-600{
+
+.fw-600 {
     font-weight: 600;
 }
-@media (min-width: 992px) { /* desktop */
-    .custom-font-weight{
+
+@media (min-width: 992px) {
+
+    /* desktop */
+    .custom-font-weight {
         font-weight: normal;
     }
 
-    .lg-gray{
+    .lg-gray {
         color: #737373;
     }
 
-    .custom-bg-white{
+    .custom-bg-white {
         background-color: white;
     }
 
